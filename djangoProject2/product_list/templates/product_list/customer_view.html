@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../static/product_list/style.css">
-    <title>N.M. Groceries</title>
-</head>
-<body>
-    <div class="header">
-        <div class="header-container">
-            <h1 class="store-title"><i class="fas fa-tram"></i></i>North Mountain Groceries<i class="fas fa-mountain"></i></h1>
-        </div>
-    </div>
-
-
-
-    <div class="content">
+{% extends 'base_layout.html' %}
+{% load static %}
+{% block style %}<link rel="stylesheet" href="{% static 'product_list/style.css'%}"> {% endblock style %}
+        {% block content %}
         <div class="welcome-text">Browse Items</div>
         <div class="content-filter">
             <div class="filter">
@@ -46,27 +30,7 @@
             }
         </script>
 
+{% endblock %}
 
 
 
-
-
-
-
-
-
-
-
-
-    </div>
-
-    <div class="footer">
-        <div class="footer-item">Copyright 2021 North Mountain Groceries</div>
-        <div class="footer-item">Privacy Notice</div>
-        <div class="footer-item">Conditions of Use</div>
-        <div class="footer-item">Site Information</div>
-        <div class="footer-item">Legal</div>
-        <div class="footer-item">©CISC371 Group 5 Fall 2021</div>
-    </div>
-</body>
-</html>

@@ -1,0 +1,46 @@
+
+ .welcome-box {
+     text-align: center;
+     font-size: 3.8rem;
+     width: fit-content;
+     padding: 4rem 7rem;
+     border-radius: 0.4rem;
+     box-shadow:0 0 0.5rem 0.1rem gray;
+     transition: background-color 0.1s, color 0.1s;
+     cursor: pointer;
+     
+     
+     user-select:initial;
+ }
+
+ .welcome-box:hover {
+     /*background-color: rgba(200,200,200,0.35);*/
+     background-color: var(--secondary-green-color);
+     color: white;
+     text-decoration: underline 0.2rem white;
+
+ }
+
+.welcome-page-container {
+    width: var(--content-max-width);
+    position: absolute;
+    left: 15%;
+    top: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height:45%;
+}
+
+.welcome-page-selection-container {
+    
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ a {
+     text-decoration: none;
+ }
