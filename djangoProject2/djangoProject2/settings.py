@@ -77,6 +77,7 @@ WSGI_APPLICATION = 'djangoProject2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+#needs to be modified with local database information#
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -84,7 +85,7 @@ DATABASES = {
         'USER': 'db.connect',
         'PASWORD': '',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '', 
     }
 }
 
