@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.27, for Win64 (x86_64)
 --
--- Host:     Database: project
+-- Host: localhost     Database: project
 -- ------------------------------------------------------
 -- Server version	8.0.27
 
